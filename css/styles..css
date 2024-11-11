@@ -4,7 +4,7 @@
 	--text-color: #333333;
 	--white-color: #ffffff;
 	--gold-bg: #f3d7b7;
-	--darkgold: #c99b67;
+	--darkgold-bg: #c99b67;
 	--light-bg: #f8f8f2;
 }
 
@@ -72,4 +72,9 @@ body {
 
 .main-content {
 	flex-grow: 1;
+}
+
+.site-header-wrapper {
+	padding-top: 40px;
+	background-color: var(--gold-bg);
 }
