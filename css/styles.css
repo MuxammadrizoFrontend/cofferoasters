@@ -207,3 +207,59 @@ body {
 	position: absolute;
 }
 /* HERO END */
+
+/* OUR-COLLECTION */
+
+.our-collection {
+	background-image: url(../img/our-collection-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: var(--light-bg);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.our-collection__title {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	color: var(--black-color);
+	margin-bottom: 80px;
+}
+
+.our-collection__list {
+	margin: 0;
+	padding: 0;
+}
+
+.our-collection__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1114px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.our-collection__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.our-collection__item:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.our-collection__item-info {
+	max-width: 453px;
+	width: 100%;
+}
+
+.our-collection__item-info__title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 1.1;
+}
