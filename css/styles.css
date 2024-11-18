@@ -61,6 +61,7 @@ body {
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 .container {
@@ -220,6 +221,36 @@ body {
 	padding-bottom: 50px;
 }
 
+.our-collection__container {
+	position: relative;
+}
+
+.our-collection__img {
+	position: absolute;
+	top: 0;
+	left: -201px;
+}
+
+.our-collection__img2 {
+	position: absolute;
+	top: 685px;
+	right: -191px;
+	z-index: 2;
+}
+
+.our-collection__img3 {
+	position: absolute;
+	top: 831px;
+	right: -125px;
+	z-index: 1;
+}
+
+.our-collection__img4 {
+	position: absolute;
+	bottom: 170px;
+	left: -158px;
+}
+
 .our-collection__title {
 	text-transform: uppercase;
 	text-align: center;
@@ -262,4 +293,72 @@ body {
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 1.1;
+}
+
+/* INDEX_COLLECTION */
+.index-colaction__inner {
+	position: relative;
+	background-color: var(--darkgold-bg);
+	background-image: url(../img/index-collaction-backraund.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 703px;
+	padding-bottom: 420px;
+}
+
+.index-colaction__info {
+	max-width: 581px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.index-colaction__info-title {
+	color: var(--light-bg);
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.index-colaction__info-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: center;
+}
+
+.index-colaction__list {
+	position: absolute;
+	display: flex;
+}
+
+.index-colaction_img {
+	width: 433px;
+	height: 500px;
+	top: 2862px;
+	left: 50px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.index-colaction__item-title {
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 35.16px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.index-colaction__item-text {
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
 }
