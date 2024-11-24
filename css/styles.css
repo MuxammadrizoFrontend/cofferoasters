@@ -476,3 +476,23 @@ body {
 .how-it-works__btn {
 	background-color: var(--darkgold-bg);
 }
+
+.site-footer {
+	padding-top: 68px;
+	padding-bottom: 68px;
+	background-color: var(--gold-bg);
+}
+
+.social {
+	display: flex;
+	align-items: center;
+}
+
+.social__item:not(last-child) {
+	margin-right: 30px;
+}
+
+.social__item {
+	display: flex;
+	align-items: center;
+}
