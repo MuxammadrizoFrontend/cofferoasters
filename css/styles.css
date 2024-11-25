@@ -502,12 +502,37 @@ body {
 		rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
-/* .twitter:hover {
-	box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px,
-		rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-} */
-
 .instagram:hover {
 	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
 		rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.our-commitment__inner {
+	position: relative;
+	padding: 160px 64px 200px 165px;
+	background-image: url(../img/our-commitment-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.our-commitment__img-wrapper {
+	margin-right: 185px;
+}
+
+.our-commitment__info {
+	max-width: 626px;
+	width: 100%;
+}
+
+.ourcommitment__title {
+	margin-bottom: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: var(--black-color);
 }
