@@ -507,6 +507,10 @@ body {
 		rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
+.our-commitment {
+	margin-bottom: 160px;
+}
+
 .our-commitment__inner {
 	position: relative;
 	padding: 160px 64px 200px 165px;
@@ -535,4 +539,44 @@ body {
 	font-size: 48px;
 	line-height: 1.2;
 	color: var(--black-color);
+}
+
+/* Uncompromising quality */
+.Uncompromising-quality__inner {
+	background-image: url(../img/Uncompromising-quality-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: var(--white-color);
+	padding: 100px 118px 143px;
+	position: relative;
+}
+
+.Uncompromising-quality__info {
+	margin-right: 38px;
+	max-width: 639px;
+	width: 100%;
+}
+
+.Uncompromising-quality__title {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	max-width: 397px;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.Uncompromising-quality_text {
+	line-height: 1.7;
+}
+
+.Uncompromising-quality__img {
+	width: 550px;
+	height: 500px;
+	object-fit: cover;
+	position: absolute;
+	right: 30px;
+	top: -90px;
 }
